@@ -1,0 +1,187 @@
+html{font-size:62.5%;}
+body{overflow-x:hidden;}
+
+
+
+/* ----------------------- Polices ----------------------- */
+
+            /* Familles */
+
+            @font-face{
+
+                font-family: 'roboto';
+                src: url('../fonts/Roboto-Black.ttf');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            .roboto{font-family: 'roboto';}
+
+            /* Tailles */
+
+            .bold{font-weight:700;}
+            .semi-bold{font-weight: 600;}
+            .regular{font-weight: 500;}
+            .fs80{font-size:8rem;}
+            .fs60{font-size:6rem;}
+            .fs48{font-size: 4.8rem;}
+            .fs40{font-size:4rem;}
+            .fs36{font-size:3.6rem;}
+            .fs32{font-size:3.2rem;}
+            .fs28{font-size:2.8rem;}
+            .fs24{font-size:2.4rem;}
+            .fs20{font-size:2rem;}
+            .fs18{font-size:1.8rem;}
+            .fs15{font-size:1.5rem;}
+            .fs12{font-size:1.2rem;}
+            
+
+            .lheight60p{line-height:60px;}
+            .lheight20p{line-height:20px;}
+
+
+/* ----------------------- Couleurs ----------------------- */
+
+
+            .color1{color:#03A9F4;} /* bleu */
+            .color2{color:#f2f2f2;} /* blanc */
+            .color3{color:#e78e8e;} /* noir */
+            .color4{color:#35437C;} /* bleu foncé */
+            .color5{color:#a6aa9c;} /* gris */
+            
+
+            /* Backgrounds */
+
+            .bgcolor1{background-color: #03A9F4;} /* bleu */
+            .bgcolor2{background-color:#FFFFFF;} /* blanc */
+
+            
+            .divider-color{ border-color: #BDBDBD; }
+            .nav-nocolor
+            {
+                background: none;
+                transition: 0.5s linear;
+            }
+
+/* ----------------------- Heights ----------------------- */
+
+            .h100{height:100%;}
+            .h33{height: 33%;}
+            .h100vh{height:100vh;}
+            
+
+
+
+
+/* ----------------------- Widths ----------------------- */
+
+            .w100{width:100%;}
+            .w90{width:90%}
+            .w85{width:85%;}
+            .w80{width:80%;}
+            .w75{width:75%;}
+            .w70{width:70%;}
+            .w66{width:66%;}
+            .w60{width:60%;}
+            .w50{width:50%;}
+            .w40{width:40%;}
+            .w33{width:33%;}
+            .w25{width:25%;}
+            .w23{width:23%;}
+            .w20{width:20%;}
+            .w15{width:15%;}
+            .w10{width:10%;}
+            .w300p{width:300px;}
+            .w165p{width:165px;}
+
+/* ----------------------- Margins & Paddings ----------------------- */
+            
+            .mtop75p{margin-top:75px;}
+            .mtop45p{margin-top:45px;}
+            .mtop30p{margin-top:30px;}
+            .mtop20p{margin-top:20px;}
+            .mtop15p{margin-top:15px;}
+            .mtop2p{margin-top:2px;}
+
+            .mbot30p{margin-bottom:30px;}
+            .mbot20p{margin-bottom:20px;}
+
+            .mleft40p{margin-left:40px;}
+            .mleft2p{margin-left:2px;}
+
+            .mleft50{margin-left: 50%;}
+            
+
+            .padd40p{padding:40px;}
+            .padd20p{padding:20px;}
+            .padd15p{padding:15px;}
+
+            .paddLR15p{padding: 0 15px 0 15px;}
+
+            .padtop20p{padding-top:20px}
+            .padbot20p{padding-bottom:20px;}
+            
+            .nomargin{margin: 0;}
+            .nopadding{padding:0;}
+
+
+
+
+/* ----------------------- Génériques ----------------------- */
+
+            /* Display and justify */
+
+            .flex{display: flex;}
+            .block{display:block;}
+            .iblock{display: inline-block;}
+            .column{ flex-direction:column;}
+            .jcbetween{justify-content: space-between;}
+            .jcaround{justify-content: space-around;}
+            .jccenter{justify-content: center;}
+            .aicenter{align-items:center;}
+            .txtcenter{text-align:center;}
+            .txtmiddle{vertical-align:middle;}
+            .hidden{visibility:hidden;}
+            .textjustify{text-align:justify;}
+            .center{margin:auto;}
+
+            /* Positions */
+
+            .absolute{position:absolute;}
+            .fixed{position:fixed;}
+            .relative{position: relative;}
+                
+            .valign
+            {       
+                position:absolute;
+                top:50%;
+                transform:translateY(-50%);
+            }
+
+            
+            
+
+
+/* ----------------------- Spécifiques ----------------------- */
+
+            hr{border-top: 2px solid #E3E7E7;}
+
+            .opacity100{opacity: 100%;}
+            .opacity50{opacity: 50%;}
+            .opacity20{opacity: 20%;}
+
+
+            .textCarousel
+            {
+                position: absolute;
+                top:33%;
+                left:10%;
+            }
+
+
+            .textCarousel button{border-radius: 3px;
+            border: none;}
+
+            ul li:active{color:#6C7491;}
+
+            .btn-carousel:hover{cursor:pointer;}
