@@ -57,6 +57,7 @@ body{overflow-x:hidden;}
             .bgcolor1{background-color: #03A9F4;} /* bleu */
             .bgcolor2{background-color:#FFFFFF;} /* blanc */
             .bgcolor3{background-color: #6C7491;}
+            .bgcolor4{background-color: #35437C;}
 
             
             .divider-color{ border-color: #BDBDBD; }
@@ -71,11 +72,11 @@ body{overflow-x:hidden;}
             .h100{height:100%;}
             .h33{height: 33%;}
             .h100vh{height:100vh;}
-            
+            .h150p{height:150px;}
             .hAuto{height: auto;}
 
 
-
+            .h80vh{height: 80vh;}
 
 /* ----------------------- Widths ----------------------- */
 
@@ -122,7 +123,10 @@ body{overflow-x:hidden;}
             .padd40p{padding:40px;}
             .padd20p{padding:20px;}
             .padd15p{padding:15px;}
-            .padd5p{padding: 5px;}
+            .padd10p{padding:10px;}
+            .padd5p{padding:5px;}
+            .padd5p0{padding:5px 0;}
+            .padd-contact{padding: 15px 15px 0 15px;}
 
             .paddLR15p{padding: 0 15px 0 15px;}
 
@@ -163,12 +167,15 @@ body{overflow-x:hidden;}
 /* ----------------------- Spécifiques ----------------------- */
 
             hr{border-top: 2px solid #E3E7E7;}
+            .border5{border-radius: 3px;}
 
-            .opacity100{opacity: 100%;}
-            .opacity50{opacity: 50%;}
-            .opacity20{opacity: 20%;}
+            .opacity100{opacity: 1;}
+            .opacity90{opacity: 0.90;}
+            .opacity80{opacity: 0.80;}
+            .opacity50{opacity: 0.50;}
+            .opacity20{opacity: 0.20;}
 
-
+            .noborder{border: none;}
             .textCarousel
             {
                 position: absolute;
