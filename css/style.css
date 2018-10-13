@@ -10,12 +10,13 @@ body{overflow-x:hidden;}
             @font-face{
 
                 font-family: 'roboto';
-                src: url('../fonts/Roboto-Black.ttf');
+                src: url('../fonts/Roboto-Medium.ttf');
                 font-weight: normal;
                 font-style: normal;
             }
 
             .roboto{font-family: 'roboto';}
+
 
             /* Tailles */
 
@@ -45,15 +46,17 @@ body{overflow-x:hidden;}
 
             .color1{color:#03A9F4;} /* bleu */
             .color2{color:#f2f2f2;} /* blanc */
-            .color3{color:#e78e8e;} /* noir */
+            .color3{color:#e78e8e;} 
             .color4{color:#35437C;} /* bleu foncé */
             .color5{color:#a6aa9c;} /* gris */
+            .color6{color:#2a2a2a;} /* noir */
             
 
-            /* Backgrounds */
+             /* Backgrounds */ 
 
             .bgcolor1{background-color: #03A9F4;} /* bleu */
             .bgcolor2{background-color:#FFFFFF;} /* blanc */
+            .bgcolor3{background-color: #6C7491;}
 
             
             .divider-color{ border-color: #BDBDBD; }
@@ -69,6 +72,7 @@ body{overflow-x:hidden;}
             .h33{height: 33%;}
             .h100vh{height:100vh;}
             
+            .hAuto{height: auto;}
 
 
 
@@ -110,11 +114,15 @@ body{overflow-x:hidden;}
             .mleft2p{margin-left:2px;}
 
             .mleft50{margin-left: 50%;}
-            
+
+
+            .left66{left: 66%;}
+            .top10{top: 10%;}
 
             .padd40p{padding:40px;}
             .padd20p{padding:20px;}
             .padd15p{padding:15px;}
+            .padd5p{padding: 5px;}
 
             .paddLR15p{padding: 0 15px 0 15px;}
 
@@ -151,16 +159,6 @@ body{overflow-x:hidden;}
             .fixed{position:fixed;}
             .relative{position: relative;}
                 
-            .valign
-            {       
-                position:absolute;
-                top:50%;
-                transform:translateY(-50%);
-            }
-
-            
-            
-
 
 /* ----------------------- Spécifiques ----------------------- */
 
