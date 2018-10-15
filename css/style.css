@@ -71,12 +71,15 @@ body{overflow-x:hidden;}
 
             .h100{height:100%;}
             .h33{height: 33%;}
+            
             .h100vh{height:100vh;}
+            .h80vh{height: 80vh;}
+
             .h150p{height:150px;}
+
             .hAuto{height: auto;}
 
 
-            .h80vh{height: 80vh;}
 
 /* ----------------------- Widths ----------------------- */
 
@@ -133,10 +136,8 @@ body{overflow-x:hidden;}
             .padtop20p{padding-top:20px}
             .padbot20p{padding-bottom:20px;}
             
-            .nomargin{margin: 0;}
+            .nomargin{margin:0;}
             .nopadding{padding:0;}
-
-
 
 
 /* ----------------------- Génériques ----------------------- */

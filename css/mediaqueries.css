@@ -53,6 +53,9 @@
     .fs15-sm{font-size:1.2rem;}
     .fs12-sm{font-size:1rem;}
 
+    .color2-sm{color:#f2f2f2;} /* blanc */
+
+
     .text-justify-sm{text-align: justify;}
 
 
@@ -61,6 +64,7 @@
     .w100-sm{width:100%;}
     .w75-sm{width:75%;}
     .w300p-sm{width:300px;}
+
     .h100-sm{height:100%;}
     .h125p-sm{height:125px;}
     .h100minusNav-sm{height:calc(100vh - 55px);}
@@ -75,6 +79,8 @@
 
     .lh0-sm{line-height: 0;}
     .lh17p-sm{line-height: 17px;}
+
+    /* Widths */
 
     .w100-sm{width:100%;}
     .w90-sm{width:90%}
@@ -97,6 +103,51 @@
 
     .h100-sm{height: 100%;}
 
+
+
+    /* Margins & Paddings */
+
+    .nomargin-sm{margin:0;}
+
+    .padd40p-sm{padding:40px;}
+    .padd20p-sm{padding:20px;}
+    .padd15p-sm{padding:15px;}
+    .padd10p-sm{padding:10px;}
+    .padd5p-sm{padding:5px;}
+    .padd5p0-sm{padding:5px 0;}
+
+    .padtop20p-sm{padding-top:20px}
+    .padbot20p-sm{padding-bottom:20px;}
+
+    .nopadding{padding:0;}
+
+
+    /* ----------------------- Génériques ----------------------- */
+
+            /* Display and justify */
+
+            .flex-sm{display: flex;}
+            .block-sm{display:block;}
+            .iblock-sm{display: inline-block;}
+            .column-sm{flex-direction:column;}
+            .jcbetween-sm{justify-content: space-between;}
+            .jcaround-sm{justify-content: space-around;}
+            .jccenter-sm{justify-content: center;}
+            .aicenter-sm{align-items:center;}
+            .txtcenter-sm{text-align:center;}
+            .txtmiddle-sm{vertical-align:middle;}
+            .hidden-sm{visibility:hidden;}
+            .textjustify-sm{text-align:justify;}
+            .center-sm{margin:auto;}
+
+            /* Positions */
+
+            .absolute{position:absolute;}
+            .fixed{position:fixed;}
+            .relative{position: relative;}
+
+    /* ----------------------- Spécifiques ----------------------- */
+
     .textCarousel-sm
     {
         position: absolute;
@@ -110,7 +161,5 @@
         /* Iphone 4 & 5 */
 @media screen and (max-width : 320px){
 
-    .w250p-xs{width:250px;}
-    .grid-item, .grid-item-lg, .grid-item-med{width:33%;}
 }
 
