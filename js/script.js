@@ -8,9 +8,9 @@ $(document).ready(function(){
 
 $('.owl-carousel').owlCarousel(
     {
-        loop:false,
+        loop:true,
         nav:false,
-        autoplay:false,
+        autoplay:true,
         autoplayTimeout:5000,
         autoplayHoverPause:true,
         smartSpeed:700,
