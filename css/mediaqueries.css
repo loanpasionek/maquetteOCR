@@ -65,7 +65,13 @@
     .color5-sm{color:#a6aa9c;} /* gris */
     .color6-sm{color:#2a2a2a;} /* noir */
 
+    /* Backgrounds */ 
 
+    .bgcolor1-sm{background-color: #03A9F4;} /* bleu */
+    .bgcolor2-sm{background-color:#FFFFFF;} /* blanc */
+    .bgcolor3-sm{background-color: #6C7491;}
+    .bgcolor4-sm{background-color: #35437C;}
+    .bgcolor5-sm{background-color: #F5F5F5;}
 
 
     .text-justify-sm{text-align: justify;}
@@ -95,6 +101,7 @@
     .nomargin-sm{margin:0;}
 
     .mbot30p-sm{margin-bottom:30px;}
+    .mbot15p-sm{margin-bottom:15px;}
     .mtop30p-sm{margin-top:30px;}
     .mtop0-sm{margin-top:0;}
     .m0-sm{margin: 0;}
@@ -161,6 +168,18 @@
         left:5%;
     }
 
+    .tooltipContainer .tooltipContent 
+        {
+            width: 100%;
+            height: 33%;
+            opacity: 0.7;
+            top:67%;
+        }
+    
+    .zoomable-sm:focus
+    {transform: scale(1.5);
+
+    }
     
 }
 
