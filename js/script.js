@@ -11,8 +11,9 @@ $('.owl-carousel').owlCarousel(
         loop:false,
         nav:false,
         autoplay:false,
-        autoplayTimeout:500000000000,
+        autoplayTimeout:5000,
         autoplayHoverPause:true,
+        smartSpeed:700,
         responsive:
         {
             0:{
@@ -42,4 +43,22 @@ $('.owl-carousel').owlCarousel(
         {
         all.addClass('opacity100');
         });
+    });
+
+
+
+    /* ----------- Smooth scrolling ------------- */
+
+    $('a[href^="#"]').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if(target.length) {
+            event.preventDefault();
+    
+    
+            var scroll = target.offset().top;
+            
+            $('html, body').stop().animate({
+                scrollTop: scroll
+            }, 2000);
+        }
     });

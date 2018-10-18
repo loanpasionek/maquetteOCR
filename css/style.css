@@ -166,7 +166,7 @@ body{overflow-x:hidden;}
                 
 
 /* ----------------------- Spécifiques ----------------------- */
-
+            .nodeco{text-decoration: none;}
             hr{border-top: 2px solid #E3E7E7;}
             .border5{border-radius: 3px;}
 
