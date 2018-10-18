@@ -128,7 +128,8 @@ body{overflow-x:hidden;}
             .padd15p{padding:15px;}
             .padd10p{padding:10px;}
             .padd5p{padding:5px;}
-            .padd5p0{padding:5px 0;}
+            .padd5-0p{padding:5px 0;}
+            .padd0-10p{padding:0 10px;}
             .padd-contact{padding: 15px 15px 0 15px;}
 
             .paddLR15p{padding: 0 15px 0 15px;}
@@ -167,8 +168,13 @@ body{overflow-x:hidden;}
 
 /* ----------------------- Spécifiques ----------------------- */
             .nodeco{text-decoration: none;}
+            .noborder{border: none;}
+
             hr{border-top: 2px solid #E3E7E7;}
             .border5{border-radius: 3px;}
+
+
+            /* Opacités */
 
             .opacity100{opacity: 1;}
             .opacity90{opacity: 0.90;}
@@ -176,7 +182,6 @@ body{overflow-x:hidden;}
             .opacity50{opacity: 0.50;}
             .opacity20{opacity: 0.20;}
 
-            .noborder{border: none;}
             .textCarousel
             {
                 position: absolute;
@@ -184,10 +189,34 @@ body{overflow-x:hidden;}
                 left:10%;
             }
 
-
             .textCarousel button{border-radius: 3px;
             border: none;}
 
             ul li:active{color:#6C7491;}
 
             .btn-carousel:hover{cursor:pointer;}
+            
+
+            .tooltipContainer 
+            {
+                position: relative;
+            }
+
+            .tooltipContainer .tooltipContent 
+            {
+                visibility: hidden;
+                background-color:red;
+                color: #fff;
+                font-size:1.2rem;
+                position: absolute;
+                width: 90%;
+                height: 33%;
+                opacity: 0.7;
+                top:67%;
+            }
+            
+            .tooltipContainer:hover .tooltipContent
+            {
+                visibility: visible;
+                left:0;
+            }
