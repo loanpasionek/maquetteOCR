@@ -72,16 +72,16 @@
     .bgcolor3-sm{background-color: #6C7491;}
     .bgcolor4-sm{background-color: #35437C;}
     .bgcolor5-sm{background-color: #F5F5F5;}
+    .bgcolor6-sm{background-color: #ccf0c3;} /* gris */
 
-
+    .txtcenter-sm{text-align: center;}
     .text-justify-sm{text-align: justify;}
 
 
     /* Heights, widths, margins, paddings */
 
-    .w100-sm{width:100%;}
-    .w75-sm{width:75%;}
-    .w300p-sm{width:300px;}
+    .left66-sm{left:66%;}
+    .left50-sm{left:50%;}
 
     .h100-sm{height:100%;}
     .h125p-sm{height:125px;}
@@ -176,9 +176,10 @@
             top:67%;
         }
     
-    .zoomable-sm:focus
-    {transform: scale(1.5);
-
+    .zoomable-sm:active
+    {
+        transform: scale(1.5);
+        transition: all 0s 99999999s;
     }
     
 }

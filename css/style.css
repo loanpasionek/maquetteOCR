@@ -120,7 +120,7 @@ body{overflow-x:hidden;}
 
             .mleft50{margin-left: 50%;}
 
-
+            .left75{left: 75%;}
             .left66{left: 66%;}
             .top10{top: 10%;}
 
@@ -194,7 +194,8 @@ body{overflow-x:hidden;}
             .textCarousel button{border-radius: 3px;
             border: none;}
 
-            ul li:active{color:#6C7491;}
+            ul li a:active{color:red;}
+            ul li a:visited{color:#35437C;}
 
             .btn-carousel:hover{cursor:pointer;}
             

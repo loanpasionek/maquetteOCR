@@ -62,3 +62,29 @@ $('.owl-carousel').owlCarousel(
             }, 2000);
         }
     });
+
+
+    /* ----------- Changement nav sur scroll -----------  */
+
+
+    /* $(function()
+    {
+        var divNav = $('#divNav');
+        var divNavheight = divNav.height();
+        var windowHeight = $(window).height();
+
+        $(window).scroll(function()
+        {
+            var scroll = $(window).scrollTop();
+
+            if (scroll > windowHeight - divNavheight)
+            {
+                divNav.removeClass('left66').addClass('left75');
+            }
+
+            if(scroll <= windowHeight - divNavheight)
+            {
+                divNav.removeClass('left75').addClass('left66');
+            }
+        })
+    }); */
