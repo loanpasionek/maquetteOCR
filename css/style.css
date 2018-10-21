@@ -105,6 +105,7 @@ body{overflow-x:hidden;}
 
 /* ----------------------- Margins & Paddings ----------------------- */
             
+            .mtop100p{margin-top:100px;}
             .mtop75p{margin-top:75px;}
             .mtop45p{margin-top:45px;}
             .mtop30p{margin-top:30px;}
@@ -168,6 +169,15 @@ body{overflow-x:hidden;}
                 
 
 /* ----------------------- Spécifiques ----------------------- */
+
+            #accueil
+            {
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 8%;
+                width: 100%;
+            }
 
             .nodeco{text-decoration: none;}
             .noborder{border: none;}

@@ -102,6 +102,7 @@
 
     .mbot30p-sm{margin-bottom:30px;}
     .mbot15p-sm{margin-bottom:15px;}
+    .mtop60p-sm{margin-top:60px;}
     .mtop30p-sm{margin-top:30px;}
     .mtop0-sm{margin-top:0;}
     .m0-sm{margin: 0;}
@@ -160,6 +161,15 @@
             .relative{position: relative;}
 
     /* ----------------------- Spécifiques ----------------------- */
+
+    #accueil
+            {
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
 
     .textCarousel-sm
     {
