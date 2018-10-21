@@ -168,6 +168,7 @@ body{overflow-x:hidden;}
                 
 
 /* ----------------------- Spécifiques ----------------------- */
+
             .nodeco{text-decoration: none;}
             .noborder{border: none;}
 
@@ -194,8 +195,9 @@ body{overflow-x:hidden;}
             .textCarousel button{border-radius: 3px;
             border: none;}
 
-            ul li a:active{color:red;}
-            ul li a:visited{color:#35437C;}
+            ul li a:active{color:#03A9F4;}
+            ul li a:visited{color:#03A9F4;}
+            ul li a:link{color:#03A9F4;}
 
             .btn-carousel:hover{cursor:pointer;}
             
