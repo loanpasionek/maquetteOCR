@@ -23,7 +23,7 @@
 
     .h100minusNav-mm{height:calc(100vh - 55px);}
 
-    .padd20p-mm{padding: 20px}
+    .padd20p-mm{padding: 20px;}
 
 }
 
@@ -93,6 +93,7 @@
     .padd10p-sm{padding:10px;}
     .padd5p-sm{padding:5px;}
     .padd5p0-sm{padding:5px 0;}
+    .paddLR10p-sm{padding: 0 10px 0 10px;}
 
     .padtop20p-sm{padding-top:20px}
     .padbot20p-sm{padding-bottom:20px;}
@@ -105,12 +106,12 @@
     .mtop60p-sm{margin-top:60px;}
     .mtop30p-sm{margin-top:30px;}
     .mtop0-sm{margin-top:0;}
-    .m0-sm{margin: 0;}
     .center-sm{margin:auto;}
     .left8-sm{left:8%;}
+    .left0-sm{left: 0%;}
 
     .lh0-sm{line-height: 0;}
-    .lh17p-sm{line-height: 17px;}
+    .lh25p-sm{line-height: 25px;}
 
     /* Widths */
 
@@ -191,7 +192,10 @@
         transform: scale(1.5);
         transition: all 0s 99999999s;
     }
-    
+    .tooltipContainer:hover .tooltipContent, .tooltipContainer:hover .tooltipEye
+    {
+        visibility: hidden;
+    }    
 }
 
         /* Iphone 4 & 5 */
