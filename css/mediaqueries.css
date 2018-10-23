@@ -157,19 +157,17 @@
 
             /* Positions */
 
-            .absolute{position:absolute;}
-            .fixed{position:fixed;}
-            .relative{position: relative;}
+            .absolute-sm{position:absolute;}
+            .fixed-sm{position:fixed;}
+            .relative-sm{position: relative;}
 
     /* ----------------------- Spécifiques ----------------------- */
 
     #accueil
             {
-                position: fixed;
-                z-index: 1;
-                top: 0;
+                
                 left: 0;
-                width: 100%;
+                opacity: 0.95;
             }
 
     .textCarousel-sm
