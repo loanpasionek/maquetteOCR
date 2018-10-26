@@ -48,6 +48,8 @@ $('.owl-carousel').owlCarousel(
 
 
     /* ----------- Smooth scrolling ------------- */
+    var accueil = $('#accueil');
+    var accueilHeight = accueil.height();
 
     $('a[href^="#"]').on('click', function(event) {
         var target = $(this.getAttribute('href'));
@@ -55,7 +57,7 @@ $('.owl-carousel').owlCarousel(
             event.preventDefault();
     
     
-            var scroll = target.offset().top;
+            var scroll = target.offset().top - accueilHeight;
             
             $('html, body').stop().animate({
                 scrollTop: scroll
@@ -67,24 +69,24 @@ $('.owl-carousel').owlCarousel(
     /* ----------- Changement nav sur scroll -----------  */
 
 
-    /* $(function()
+     $(function()
     {
-        var divNav = $('#divNav');
-        var divNavheight = divNav.height();
+        var accueil = $('#accueil');
+        var accueilHeight = accueil.height();
         var windowHeight = $(window).height();
 
         $(window).scroll(function()
         {
             var scroll = $(window).scrollTop();
 
-            if (scroll > windowHeight - divNavheight)
+            if (scroll > windowHeight - accueilHeight)
             {
-                divNav.removeClass('left66').addClass('left75');
+                accueil.addClass('opacity90 bgcolor2');
             }
 
-            if(scroll <= windowHeight - divNavheight)
+            if(scroll <= windowHeight - accueilHeight)
             {
-                divNav.removeClass('left75').addClass('left66');
+                accueil.removeClass('opacity90 bgcolor2');            
             }
         })
-    }); */
+    }); 

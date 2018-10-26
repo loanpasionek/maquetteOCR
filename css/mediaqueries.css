@@ -74,9 +74,6 @@
     .bgcolor5-sm{background-color: #F5F5F5;}
     .bgcolor6-sm{background-color: #ccf0c3;} /* gris */
 
-    .txtcenter-sm{text-align: center;}
-    .text-justify-sm{text-align: justify;}
-
 
     /* Heights, widths, margins, paddings */
 
@@ -112,6 +109,7 @@
 
     .lh0-sm{line-height: 0;}
     .lh25p-sm{line-height: 25px;}
+    .lh20p-sm{line-height: 20px;}
 
     /* Widths */
 
@@ -139,27 +137,27 @@
 
     /* ----------------------- Génériques ----------------------- */
 
-            /* Display and justify */
+        /* Display and justify */
 
-            .flex-sm{display: flex;}
-            .block-sm{display:block;}
-            .iblock-sm{display: inline-block;}
-            .column-sm{flex-direction:column;}
-            .jcbetween-sm{justify-content: space-between;}
-            .jcaround-sm{justify-content: space-around;}
-            .jccenter-sm{justify-content: center;}
-            .aicenter-sm{align-items:center;}
-            .txtcenter-sm{text-align:center;}
-            .txtmiddle-sm{vertical-align:middle;}
-            .hidden-sm{visibility:hidden;}
-            .textjustify-sm{text-align:justify;}
-            .center-sm{margin:auto;}
+        .flex-sm{display: flex;}
+        .block-sm{display:block;}
+        .iblock-sm{display: inline-block;}
+        .column-sm{flex-direction:column;}
+        .jcbetween-sm{justify-content: space-between;}
+        .jcaround-sm{justify-content: space-around;}
+        .jccenter-sm{justify-content: center;}
+        .aicenter-sm{align-items:center;}
+        .textcenter-sm{text-align:center;}
+        .textmiddle-sm{vertical-align:middle;}
+        .hidden-sm{visibility:hidden;}
+        .textjustify-sm{text-align:justify;}
+        .center-sm{margin:auto;}
 
-            /* Positions */
+        /* Positions */
 
-            .absolute-sm{position:absolute;}
-            .fixed-sm{position:fixed;}
-            .relative-sm{position: relative;}
+        .absolute-sm{position:absolute;}
+        .fixed-sm{position:fixed;}
+        .relative-sm{position: relative;}
 
     /* ----------------------- Spécifiques ----------------------- */
 

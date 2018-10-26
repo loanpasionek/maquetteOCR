@@ -155,7 +155,7 @@ body{overflow-x:hidden;}
             .jcaround{justify-content: space-around;}
             .jccenter{justify-content: center;}
             .aicenter{align-items:center;}
-            .txtcenter{text-align:center;}
+            .textcenter{text-align:center;}
             .txtmiddle{vertical-align:middle;}
             .hidden{visibility:hidden;}
             .textjustify{text-align:justify;}
@@ -175,7 +175,7 @@ body{overflow-x:hidden;}
                 position: fixed;
                 z-index: 1;
                 top: 0;
-                left: 8%;
+                /* left: 8%; */
                 width: 100%;
             }
 
