@@ -10,8 +10,8 @@ $('.owl-carousel').owlCarousel(
     {
         loop:true,
         nav:false,
-        autoplay:true,
-        autoplayTimeout:5000,
+        autoplay:false,
+        autoplayTimeout:50000000000,
         autoplayHoverPause:true,
         smartSpeed:700,
         responsive:

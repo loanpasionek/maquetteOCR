@@ -18,7 +18,7 @@
 
 }
 
-/* mmall Devices, Tablets */
+/* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
     /* Fonts size en medium, 10% moins grandes */
@@ -36,6 +36,7 @@
     .h100minusNav-mm{height:calc(100vh - 55px);}
 
     .padd20p-mm{padding: 20px;}
+    .padd0-mm{padding: 0px;}
 
     /* Couleurs */
     
@@ -110,6 +111,7 @@
     .w20-mm{width:20%;}
     .w15-mm{width:15%;}
     .w10-mm{width:10%;}
+    .w0-mm{width:0%;}
     .w300p-mm{width:300px;}
     .w165p-mm{width:165px;}
 
@@ -139,6 +141,17 @@
         .absolute-mm{position:absolute;}
         .fixed-mm{position:fixed;}
         .relative-mm{position: relative;}
+
+    /* ----------------------- Spécifiques ----------------------- */
+
+
+    .textCarousel-mm
+    {
+    position: absolute;
+    top:20%;
+    left:5%;
+    }
+
 
 }
 
@@ -235,6 +248,7 @@
     .w20-sm{width:20%;}
     .w15-sm{width:15%;}
     .w10-sm{width:10%;}
+    .w0-sm{width:0%;}
     .w300p-sm{width:300px;}
     .w165p-sm{width:165px;}
 
@@ -298,6 +312,12 @@
     {
         visibility: hidden;
     }    
+
+    .btn-carousel
+    {
+        top: 50%;
+        position: absolute;
+    }
 }
 
         /* Iphone 4 & 5 */
